@@ -1,0 +1,29 @@
+{
+  "name": "Cuestionario JavaScript y Programación",
+  "questions": [
+    {
+      "question": "¿Qué es una expresión en programación?",
+      "options": [
+        "Un conjunto de reglas sintácticas.",
+        "Un fragmento de código que produce un valor.",
+        "Una estructura de control que permite iteraciones.",
+        "Una declaración con un punto y coma al final."
+      ],
+      "answer": 1,
+      "justification": "Una expresión en programación es cualquier fragmento de código que produce un valor, como 2 + 2 o \"hola\" + \" mundo\"."
+    },
+    {
+      "question": "¿Cuál de las siguientes palabras clave en JavaScript introduce una constante?",
+      "options": ["var", "let", "const", "static"],
+      "answer": 2,
+      "justification": "La palabra clave const define una constante cuyo valor no puede ser reasignado después de ser declarado."
+    },
+    {
+      "question": "En JavaScript, ¿qué operador lógico devuelve el primer valor \"true\" encontrado?",
+      "options": ["AND (&&)", "OR (||)", "NOT (!)", "XOR (^)"],
+      "answer": 1,
+      "justification": "El operador || evalúa de izquierda a derecha y devuelve el primer valor verdadero que encuentra."
+    }
+    
+  ]
+}

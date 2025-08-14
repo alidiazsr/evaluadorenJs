@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluador JS - Estilo Kahoot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="welcome" style="max-width:600px;margin:40px auto 0;">
+        <h1 style="text-align:center;color:#2563eb;">¡Bienvenidas al Evaluador JS!</h1>
+        <p style="font-size:1.2em;text-align:center;">Esta plataforma permite realizar cuestionarios interactivos tipo Kahoot/Blooket sobre JavaScript y programación.</p>
+        <div style="background:#f0f4fa;padding:18px 20px;border-radius:10px;margin:24px 0;">
+            <h3>¿Cómo funciona?</h3>
+            <ul style="font-size:1.1em;">
+                <li>La profesora selecciona o carga un cuestionario y da acceso a las alumnas.</li>
+                <li>Cada alumna ingresa su nombre y espera el inicio.</li>
+                <li>Las preguntas aparecen una a una, con tiempo límite para responder.</li>
+                <li>Al finalizar cada pregunta, se muestran los resultados y la justificación.</li>
+                <li>Al terminar, se muestra el ranking final de todas las participantes.</li>
+            </ul>
+            <p style="margin-top:10px;"><b>¡Diviértete aprendiendo y compitiendo!</b></p>
+        </div>
+    </div>
+    <div id="app"></div>
+        <!-- Firebase App (core) -->
+        <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+        <!-- Firestore -->
+        <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+        <script>
+            // Configuración de Firebase
+            const firebaseConfig = {
+                apiKey: "AIzaSyADnggsi_VaJEb7lUuE7iJXsREuPw3t3jA",
+                authDomain: "evaluador-js.firebaseapp.com",
+                projectId: "evaluador-js",
+                storageBucket: "evaluador-js.firebasestorage.app",
+                messagingSenderId: "684403488136",
+                appId: "1:684403488136:web:2892e0c2fd9922369b763d"
+            };
+            firebase.initializeApp(firebaseConfig);
+            const db = firebase.firestore();
+        </script>
+            <script>
+                // Ocultar bienvenida al iniciar la app
+                function hideWelcome() {
+                    var w = document.getElementById('welcome');
+                    if(w) w.style.display = 'none';
+                }
+                // Llamar a hideWelcome cuando la app JS inicie
+                window.hideWelcome = hideWelcome;
+            </script>
+            <script src="app.js"></script>
+</body>
+</html>

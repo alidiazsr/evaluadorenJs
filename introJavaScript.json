@@ -1,0 +1,170 @@
+{
+  "name": "Cuestionario JavaScript y Programación",
+  "questions": [
+    {
+      "question": "¿Qué es una expresión en programación?",
+      "options": [
+        "Un conjunto de reglas sintácticas.",
+        "Un fragmento de código que produce un valor.",
+        "Una estructura de control que permite iteraciones.",
+        "Una declaración con un punto y coma al final."
+      ],
+      "answer": 1,
+      "justification": "Una expresión en programación es cualquier fragmento de código que produce un valor, como 2 + 2 o \"hola\" + \" mundo\"."
+    },
+    {
+      "question": "¿Cuál de las siguientes palabras clave en JavaScript introduce una constante?",
+      "options": ["var", "let", "const", "static"],
+      "answer": 2,
+      "justification": "La palabra clave const define una constante cuyo valor no puede ser reasignado después de ser declarado."
+    },
+    {
+      "question": "En JavaScript, ¿qué operador lógico devuelve el primer valor \"true\" encontrado?",
+      "options": ["AND (&&)", "OR (||)", "NOT (!)", "XOR (^)"],
+      "answer": 1,
+      "justification": "El operador || evalúa de izquierda a derecha y devuelve el primer valor verdadero que encuentra."
+    },
+    {
+      "question": "¿Cuál es una ventaja clave del lenguaje de programación C?",
+      "options": [
+        "Es multiplataforma pero no eficiente.",
+        "Permite un control preciso sobre el hardware.",
+        "No permite operaciones a nivel de bits.",
+        "Es exclusivamente para sistemas operativos."
+      ],
+      "answer": 1,
+      "justification": "C es conocido por permitir un control bajo nivel del hardware gracias al uso de punteros y operaciones bit a bit."
+    },
+    {
+      "question": "¿Qué define un paradigma de programación?",
+      "options": [
+        "Un modelo o enfoque para estructurar y escribir código.",
+        "Un lenguaje específico de programación.",
+        "La cantidad de líneas necesarias para un programa.",
+        "La velocidad de ejecución de un programa."
+      ],
+      "answer": 0,
+      "justification": "Los paradigmas son enfoques generales, como el funcional o orientado a objetos, que definen cómo estructuramos y escribimos código."
+    },
+    {
+      "question": "¿Qué significa coerción de tipos en JavaScript?",
+      "options": [
+        "Conversión de un tipo de dato a otro.",
+        "Declarar variables sin asignarles valor.",
+        "Operaciones matemáticas complejas.",
+        "Uso de operadores booleanos."
+      ],
+      "answer": 0,
+      "justification": "La coerción de tipos ocurre cuando JavaScript convierte un valor de un tipo de dato a otro, ya sea de forma implícita o explícita."
+    },
+    {
+      "question": "¿Qué palabra clave NO puede usarse como nombre de variable en JavaScript?",
+      "options": ["$nombre", "let", "_usuario", "variable123"],
+      "answer": 1,
+      "justification": "let es una palabra clave reservada en JavaScript y no puede ser usada como nombre de variable."
+    },
+    {
+      "question": "¿Qué motor utiliza Node.js para ejecutar JavaScript?",
+      "options": ["Chakra", "SpiderMonkey", "V8", "JavaScriptCore"],
+      "answer": 2,
+      "justification": "Node.js utiliza el motor V8 de Google, el mismo que usa el navegador Chrome."
+    },
+    {
+      "question": "¿Cuál es una característica clave de los lenguajes de alto nivel?",
+      "options": [
+        "Poco entendibles para los humanos.",
+        "Proporcionan abstracción adecuada para la cognición humana.",
+        "Requieren control preciso del hardware.",
+        "No necesitan traducción a lenguaje máquina."
+      ],
+      "answer": 1,
+      "justification": "Los lenguajes de alto nivel están diseñados para ser fáciles de leer y entender para los humanos."
+    },
+    {
+      "question": "¿Qué paradigma de programación se basa en objetos de la vida real?",
+      "options": ["Funcional", "Orientado a Objetos", "Declarativo", "Lógico"],
+      "answer": 1,
+      "justification": "La programación orientada a objetos modela datos y comportamientos a partir de objetos del mundo real."
+    },
+    {
+      "question": "¿Qué ventaja tiene la evaluación de cortocircuito con operadores lógicos?",
+      "options": [
+        "Reduce el número de líneas de código.",
+        "Permite comparar variables de diferentes tipos.",
+        "Incrementa la velocidad de ejecución de bucles.",
+        "Realiza operaciones de asignación."
+      ],
+      "answer": 0,
+      "justification": "La evaluación de cortocircuito permite reducir código al detenerse en cuanto encuentra un valor definitivo."
+    },
+    {
+      "question": "¿Qué paradigma no se basa en el cambio de estado o ejecución secuencial?",
+      "options": ["Declarativo", "Imperativo", "Estructurado", "Procedimental"],
+      "answer": 0,
+      "justification": "El paradigma declarativo describe qué debe hacerse sin especificar cómo debe lograrse."
+    },
+    {
+      "question": "¿Qué palabra clave ya no usamos para declarar variables?",
+      "options": ["var", "let", "static", "this"],
+      "answer": 0,
+      "justification": "Aunque var sigue siendo válida, ha sido reemplazada por let y const en código moderno."
+    },
+    {
+      "question": "¿Qué define el término \"tipado dinámico\" en JavaScript?",
+      "options": [
+        "Variables sin tipo fijo.",
+        "Variables con tipo fijo.",
+        "Uso de coerción explícita.",
+        "Operaciones entre booleanos."
+      ],
+      "answer": 0,
+      "justification": "En JavaScript, las variables pueden cambiar de tipo dinámicamente según el valor asignado."
+    },
+    {
+      "question": "¿Qué operador lógico en JavaScript detiene la evaluación si encuentra un valor falso?",
+      "options": ["OR (||)", "AND (&&)", "NOT (!)", "XOR (^)"],
+      "answer": 1,
+      "justification": "&& detiene la evaluación si encuentra un valor falso porque no necesita evaluar más."
+    },
+    {
+      "question": "¿Cuál de las siguientes NO es una ventaja del lenguaje C?",
+      "options": [
+        "Control sobre el hardware.",
+        "Código ligero y eficiente.",
+        "Punteros para manipulación de memoria.",
+        "Multihilos nativos."
+      ],
+      "answer": 3,
+      "justification": "C no tiene soporte nativo para multihilos; esto se maneja mediante bibliotecas adicionales."
+    },
+    {
+      "question": "¿Qué palabra clave en JavaScript debe usarse para evitar la reasignación de valores?",
+      "options": ["let", "const", "var", "if"],
+      "answer": 1,
+      "justification": "const evita la reasignación del valor una vez que ha sido definido."
+    },
+    {
+      "question": "¿Cuál de los siguientes es un ejemplo de coerción implícita en JavaScript?",
+      "options": ["Number(\"123\")", "\"123\" + 1", "Boolean(0)", "String(456)"],
+      "answer": 1,
+      "justification": "\"123\" + 1 realiza una concatenación porque JavaScript convierte implícitamente el número en string."
+    },
+    {
+      "question": "¿Qué paradigma de programación evita efectos secundarios y se basa en funciones matemáticas?",
+      "options": ["Declarativo", "Funcional", "Imperativo", "Orientado a Objetos"],
+      "answer": 1,
+      "justification": "La programación funcional se enfoca en funciones puras sin efectos secundarios."
+    },
+    {
+      "question": "¿Cuál es una característica del motor V8 de JavaScript?",
+      "options": [
+        "Traducción directa de JavaScript a lenguaje ensamblador.",
+        "Compilación Just-In-Time (JIT).",
+        "Uso exclusivo en navegadores web.",
+        "Incompatibilidad con WebAssembly."
+      ],
+      "answer": 1,
+      "justification": "V8 usa JIT para convertir JavaScript en código máquina en tiempo de ejecución, mejorando la velocidad."
+    }
+  ]
+}

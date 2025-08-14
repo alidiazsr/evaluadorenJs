@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso Evaluador JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="access-app"></div>
+        <div id="question-upload" style="max-width:600px;margin:40px auto 0;display:none;">
+            <h3>Cargar nuevo cuestionario</h3>
+            <p>Opciones:</p>
+            <ul>
+                <li><b>Subir archivo JSON</b> con preguntas (estructura compatible con la app).</li>
+                <li><b>O pegar/editar preguntas</b> en el área de texto con el siguiente formato:</li>
+            </ul>
+            <pre style="background:#f0f4fa;padding:10px;border-radius:8px;overflow-x:auto;">
+    Pregunta: ¿Qué es una expresión en programación?
+    A) Un conjunto de reglas sintácticas.
+    *B) Un fragmento de código que produce un valor.
+    C) Una estructura de control que permite iteraciones.
+    D) Una declaración con un punto y coma al final.
+    Justificación: Una expresión en programación es cualquier fragmento de código que produce un valor, como 2 + 2 o "hola" + " mundo".
+    ---
+    Pregunta: ¿Cuál de las siguientes palabras clave en JavaScript introduce una constante?
+    A) var
+    B) let
+    *C) const
+    D) static
+    Justificación: La palabra clave const define una constante cuyo valor no puede ser reasignado después de ser declarado.
+    ---
+            </pre>
+            <p>Coloca un <b>*</b> delante de la opción correcta.<br>Separa cada pregunta con <b>---</b> en una línea nueva.<br>Incluye la justificación después de las opciones.</p>
+            <textarea id="questions-text" rows="12" style="width:100%;font-size:1.1em;"></textarea>
+            <br>
+            <input type="file" id="questions-file" accept="application/json">
+            <button id="load-questions-btn">Cargar cuestionario</button>
+            <div id="questions-feedback" style="margin-top:10px;color:#e53e3e;"></div>
+        </div>
+        <!-- Firebase App (core) -->
+        <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+        <!-- Firestore -->
+        <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+        <script>
+            // Configuración de Firebase
+            const firebaseConfig = {
+                apiKey: "AIzaSyADnggsi_VaJEb7lUuE7iJXsREuPw3t3jA",
+                authDomain: "evaluador-js.firebaseapp.com",
+                projectId: "evaluador-js",
+                storageBucket: "evaluador-js.firebasestorage.app",
+                messagingSenderId: "684403488136",
+                appId: "1:684403488136:web:2892e0c2fd9922369b763d"
+            };
+            firebase.initializeApp(firebaseConfig);
+            const db = firebase.firestore();
+        </script>
+        <script src="access.js"></script>
+</body>
+</html>
