@@ -1,0 +1,192 @@
+{
+  "name": "Cuestionario de Git y GitHub",
+  "questions": [
+    {
+      "question": "¿Qué comando se usa para inicializar un repositorio Git en una carpeta?",
+      "options": [
+        "git init",
+        "git start",
+        "git create",
+        "git new"
+      ],
+      "answer": 0,
+      "justification": "El comando correcto es 'git init', que inicializa un nuevo repositorio Git en la carpeta actual."
+    },
+    {
+      "question": "¿Cuál comando permite agregar archivos al área de preparación en Git?",
+      "options": [
+        "git add",
+        "git commit",
+        "git push",
+        "git clone"
+      ],
+      "answer": 0,
+      "justification": "'git add' agrega archivos al área de preparación (staging area) antes de hacer commit."
+    },
+    {
+      "question": "¿Qué comando se usa para guardar cambios en el repositorio local en Git?",
+      "options": [
+        "git commit",
+        "git save",
+        "git record",
+        "git push"
+      ],
+      "answer": 0,
+      "justification": "'git commit' guarda los cambios preparados en el repositorio local."
+    },
+    {
+      "question": "¿Cómo se llama la rama principal por defecto en la mayoría de los repositorios Git?",
+      "options": [
+        "master",
+        "main",
+        "default",
+        "primary"
+      ],
+      "answer": 0,
+      "justification": "Históricamente la rama principal se llama 'master', aunque en proyectos nuevos puede ser 'main'."
+    },
+    {
+      "question": "¿Qué comando permite subir los cambios realizados a un repositorio remoto?",
+      "options": [
+        "git push",
+        "git pull",
+        "git fetch",
+        "git upload"
+      ],
+      "answer": 0,
+      "justification": "'git push' envía los commits locales al repositorio remoto."
+    },
+    {
+      "question": "¿Con qué comando puedes clonar un repositorio existente?",
+      "options": [
+        "git clone",
+        "git copy",
+        "git replicate",
+        "git duplicate"
+      ],
+      "answer": 0,
+      "justification": "'git clone' crea una copia local de un repositorio remoto."
+    },
+    {
+      "question": "¿Qué comando muestra el historial de commits en un repositorio Git?",
+      "options": [
+        "git log",
+        "git history",
+        "git history-log",
+        "git commits"
+      ],
+      "answer": 0,
+      "justification": "'git log' muestra el historial de commits realizados en el repositorio."
+    },
+    {
+      "question": "¿Cuál es la función del comando git branch?",
+      "options": [
+        "Crear, listar o eliminar ramas",
+        "Fusionar ramas",
+        "Subir ramas a remoto",
+        "Clonar ramas"
+      ],
+      "answer": 0,
+      "justification": "'git branch' permite crear, listar y eliminar ramas en el repositorio."
+    },
+    {
+      "question": "¿Qué comando se usa para fusionar una rama en otra?",
+      "options": [
+        "git merge",
+        "git combine",
+        "git rebase",
+        "git link"
+      ],
+      "answer": 0,
+      "justification": "'git merge' fusiona los cambios de una rama en la rama actual."
+    },
+    {
+      "question": "¿Cómo descartar todos los cambios no guardados en el directorio de trabajo?",
+      "options": [
+        "git reset --hard",
+        "git discard",
+        "git clean",
+        "git undo"
+      ],
+      "answer": 0,
+      "justification": "'git reset --hard' descarta todos los cambios no guardados y restablece el directorio de trabajo."
+    },
+    {
+      "question": "¿Qué es GitHub?",
+      "options": [
+        "Una plataforma de alojamiento de repositorios git en línea",
+        "Un sistema de control de versiones local",
+        "Un editor de código",
+        "Un sistema operativo"
+      ],
+      "answer": 0,
+      "justification": "GitHub es una plataforma en línea para alojar y colaborar en repositorios Git."
+    },
+    {
+      "question": "¿Cuál es el comando para subir tus cambios a un repositorio en GitHub?",
+      "options": [
+        "git push",
+        "git upload",
+        "git submit",
+        "git publish"
+      ],
+      "answer": 0,
+      "justification": "'git push' es el comando para subir los commits locales a GitHub."
+    },
+    {
+      "question": "¿Qué método se utiliza generalmente para colaborar en proyectos usando GitHub?",
+      "options": [
+        "Pull Requests",
+        "Merge Requests",
+        "Push Requests",
+        "Code Commit"
+      ],
+      "answer": 0,
+      "justification": "En GitHub se utilizan Pull Requests para proponer y revisar cambios antes de fusionarlos."
+    },
+    {
+      "question": "¿Cómo creas un nuevo repositorio en GitHub?",
+      "options": [
+        "Desde la interfaz web, haciendo clic en \"New repository\"",
+        "Con git create",
+        "Con git init",
+        "Con git new"
+      ],
+      "answer": 0,
+      "justification": "En GitHub, los repositorios se crean desde la web usando el botón 'New repository'."
+    },
+    {
+      "question": "¿Qué indica un \"pull request\" en GitHub?",
+      "options": [
+        "Una propuesta para fusionar cambios en la rama principal",
+        "Un intento de bajar cambios",
+        "La creación de una rama nueva",
+        "La eliminación de cambios"
+      ],
+      "answer": 0,
+      "justification": "Un pull request es una solicitud para fusionar cambios en la rama principal del proyecto."
+    },
+    {
+      "question": "¿Cuál es la función del botón \"Fork\" en GitHub?",
+      "options": [
+        "Crear una copia del repositorio en tu propia cuenta",
+        "Fusionar ramas automáticamente",
+        "Clonar el repositorio a tu máquina local",
+        "Enviar cambios directamente al repositorio original"
+      ],
+      "answer": 0,
+      "justification": "El botón 'Fork' crea una copia del repositorio en tu cuenta de GitHub."
+    },
+    {
+      "question": "¿Qué se necesita para colaborar en un proyecto de GitHub?",
+      "options": [
+        "Tener permisos de escritura en el repositorio o hacer un fork y pull request",
+        "Solo clonar el repositorio",
+        "Solo tener una cuenta en GitHub",
+        "Tener permisos de solo lectura"
+      ],
+      "answer": 0,
+      "justification": "Para colaborar necesitas permisos de escritura o hacer un fork y luego un pull request."
+    }
+  ]
+}
